@@ -57,7 +57,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #a19bb9;
   }
   a:hover {
     color: #747bff;
@@ -89,5 +89,12 @@ button:focus-visible {
 
 .recipe-detail img {
   width: 300px;
+  border-radius: 8px;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 200px; /* You can adjust this */
+  object-fit: cover;
   border-radius: 8px;
 }
